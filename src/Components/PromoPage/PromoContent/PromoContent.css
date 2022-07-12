@@ -1,0 +1,24 @@
+.promoContent-wrapper {
+    background-color: #e8ecef;
+}
+.promoImgDiv {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+}
+.promoImg {
+    object-fit: contain;
+}
+.columns {
+    color: #413e54;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+.featuresDiv {
+    justify-content: center;
+    color: #413e54;
+}

@@ -1,0 +1,22 @@
+@keyframes slide-in {
+   from {
+     transform: translateY(-100%);
+   }
+   to {
+     transform: translateY(0%);
+   }
+ }
+.content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* padding: 19% 0; */
+   height: 600px;
+   animation: slide-in 1000ms;
+}
+ .contentText {
+    font-size: 32px;
+ }
+ .image-item {
+    background-position: center;background-size: cover;background-repeat: no-repeat;
+}

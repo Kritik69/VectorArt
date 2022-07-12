@@ -1,0 +1,37 @@
+.contact-wrapper {
+    background-image: url('./../MediaFiles/digi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact {
+    width: 100%;
+    margin: 1rem;
+    padding: 0.8rem;
+    border: 0px;
+    background-color: whitesmoke;
+}
+.message {
+    height: 5rem;
+}
+.inp-btn {
+    width: fit-content;
+    border: 0px;
+    padding: 0.5rem;
+}
+.inp-btn:hover {
+    background-color: green;
+}
+.con-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.con-con {
+    width: 80%;
+}

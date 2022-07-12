@@ -1,0 +1,34 @@
+.offshorecontent-wrapper {
+    background-color: rgb(232 236 239);
+}
+.cards {
+    width: 18rem;
+}
+.row1 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: space-around;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* background-color: #fff; */
+    background-clip: border-box;
+    border: 1px solidrgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.offShoreImg {
+    width: 100%;
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    background-color: orange;
+}

@@ -1,0 +1,18 @@
+.exampleContent-wrapper {
+    background-color: #e8ecef;
+    color: rgb(60 57 80);
+}
+.nav-link {
+    color: #3c3950;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    border: 0px;
+    margin: 5px;
+}

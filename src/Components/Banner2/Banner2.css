@@ -1,0 +1,15 @@
+.banner2-wrapper {
+    background-color: rgb(29, 29, 29);
+    height: auto;
+}
+.b2Btn {
+    border: 0px ;
+    border-radius: 10px;
+    background-color: orangered;
+    padding: 10px;
+    font-size: medium;
+}
+.display-3 {
+    font-size: 4rem;
+    font-weight: 500;
+}

@@ -1,0 +1,13 @@
+.video-Section-wrapper {
+    background-color: rgb(232 236 239);
+}
+.toServicesBtn {
+    background-color: red;
+    font-size: larger;
+    font-weight: 600;
+    color: white;
+    border: 0px;
+}
+.toServicesBtn:hover {
+    background-color: black;
+}
